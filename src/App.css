@@ -1,0 +1,86 @@
+html,body,h1,h2,h3,h4,h5,h6{
+      margin: 0;
+      padding: 0;
+}
+body{
+      background-image: url('./assets/body.png');
+}
+@font-face {
+      font-family: Permanent Marker; /* Имя шрифта */
+      src: url(./assets/PermanentMarker-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+.header{
+      background-image: url('./assets/background.png');
+      height: 35vh;
+}
+.logo-text{
+      font-family: Permanent Marker;
+      text-align: center;
+      color: rgba(240, 248, 255, 0.83);
+      font-size: 12vh;
+}
+.toolbar{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      height: 17vh;
+      /* border-top: 3px dashed rgb(35, 35, 35); */
+      border-bottom: 5px solid rgb(30, 30, 30);
+}
+.toolbar a{
+      font-family: Permanent Marker;
+      color: antiquewhite;
+      font-size: 25px;
+      /* margin-left: 2%; */
+}
+.toolbar a:hover{
+      color: rgb(255, 255, 255);
+}
+.toolbar input{
+      width: 35%;
+      border-radius: 50px;
+      height: 40px;
+      background-color: rgba(135, 135, 135, 0.673);
+      border: 0;
+      font-family: Permanent Marker;
+      font-size: 19px;
+      padding-left: 1%;
+      padding-right: 1%;
+      /* margin-left: 2%; */
+}
+.toolbar button{
+      width: 12%;
+      background-color: rgba(240, 255, 255, 0.578);
+      height: 40px;
+      border-radius: 50px;
+      border: 0;
+      /* margin-left: 2%; */
+      font-family: Permanent Marker;
+      font-size: 19px;
+}
+.toolbar button:hover{
+      background-color: rgb(240, 255, 255);
+}
+.toolbar select{
+      width: 12%;
+      background-color: rgba(240, 255, 255, 0.578);
+      height: 40px;
+      border-radius: 50px;
+      font-family: Permanent Marker;
+      font-size: 17px;
+}
+.toolbar select:hover{
+      background-color: rgb(240, 255, 255);
+}
+.containe-default{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 65vh;
+}
+.containe-default h1{
+      font-family: Permanent Marker;
+      color: rgba(240, 248, 255, 0.619); 
+      font-size: 50px;
+}
