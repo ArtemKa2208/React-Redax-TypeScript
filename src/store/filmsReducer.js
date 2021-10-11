@@ -1,7 +1,7 @@
 const defaultState = {
   films: [],
   search: '',
-  movie: [],
+  movie: {},
 }
 export const ADD_FILM = 'ADD_FILM';
 export const FETCH_FILM = 'FETCH_FILM';

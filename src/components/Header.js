@@ -19,7 +19,7 @@ export default (props) => {
       dispatch( sortByDate(films))
       break;      
    }
-  }
+  } 
   return(
     <div className='header'>
       <NavLink to='/' className='logo-text'>Your movie</NavLink>

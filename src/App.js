@@ -11,14 +11,14 @@ function App() {
   const dispatch = useDispatch();
   const films = useSelector( state => state.films)
   const movie = useSelector( state => state.movie)
-  console.log(films)
+  console.log(movie)
   return (
     <div className="App">
       <Header dispatch = {dispatch} />
       <Router>
         <Switch>
           <Route exact path="/">
-            {films.length ? <MovieCards films = {films} /> : <DefaultPage />}
+            { films?.length ? <MovieCards films = {films} /> : <DefaultPage />}
           </Route>
           <Route exact path="/description">
             <MovieDescription movie = {movie}/>
