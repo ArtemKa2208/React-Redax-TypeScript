@@ -25,6 +25,9 @@ body{
       font-size: 12vh;
       text-decoration: none;
 }
+.logo-text:hover{
+      color: rgb(255, 255, 255);
+}
 .toolbar{
       display: flex;
       flex-direction: row;
@@ -104,9 +107,15 @@ body{
       background-image: linear-gradient(180deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./assets/cardBackground.png');
       border-radius: 10px;
       padding: 5px;
+      height: 72vh;
+}
+.card-movie:hover{
+      border: 4px solid rgb(105, 105, 105);
+      background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.211),rgba(0, 0, 0, 0.211)), url('./assets/cardBackground.png');
 }
 .poster-image{
-      width: 65%;
+      width: 18vw;
+      height: 41vh;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -139,7 +148,7 @@ body{
       margin-right: auto;
       background-image: linear-gradient(180deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./assets/descriptionCard.jpg');
       box-shadow: -11px 11px rgb(57, 57, 57), 11px 11px rgb(57, 57, 57), -11px -11px rgb(57, 57, 57), 11px -11px rgb(57, 57, 57); 
-      margin-bottom: 20px;
+      margin-bottom: 40px;
       padding: 15px;
       border-radius:20px ;
 }
@@ -176,4 +185,51 @@ body{
 .card-title-text{
       color: rgb(148, 148, 148);
       display: inline;
+}
+
+.about-author h1{
+      text-align: center;
+      margin-bottom: 15px;
+      margin-top: 15px;
+      color: rgba(138, 138, 138, 0.775);
+      font-family: Architects Daughter;
+      font-weight: 600;
+      font-size: 36px;
+}
+.about-author img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 60vh;
+      border: 4px solid wheat;
+      border-radius: 60px;
+      margin-bottom: 40px;
+}
+
+.pages-navigations div{
+     
+      word-wrap: break-word;
+      margin-left: 10px;
+      margin-right: 10px;
+}
+.pages-navigations {
+      margin-top: 60px;
+      margin-bottom: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+}
+
+.button-page{
+      background-color: white;
+      border-radius: 50px ;
+      margin-left: 5px;
+      margin-bottom: 15px;
+      height: 36px;
+      width: 36px;
+      font-size: 13;
+      font-family: Architects Daughter;
+}
+.button-page:hover{
+      background-color: rgb(150, 150, 150);
 }
